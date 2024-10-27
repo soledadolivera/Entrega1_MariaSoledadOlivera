@@ -1,0 +1,90 @@
+/* App.css */
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f5f5f5; /* Color de fondo claro */
+}
+
+nav {
+  top: 0;
+  background-color: #282c34; /* Color de fondo del NavBar */
+  color: white; /* Color del texto en el NavBar */
+  padding: 15px; /* Espaciado alrededor del NavBar */
+  display: flex; /* Usar flexbox para alinear items */
+  justify-content: space-between; /* Espaciado entre el título y la lista */
+  align-items: center; /* Alinear verticalmente los elementos */
+  position: relative;
+  z-index: 1000;
+}
+
+nav h1 {
+  margin: 0; /* Eliminar márgenes del título */
+}
+
+nav ul {
+  list-style-type: none; /* Quitar el estilo de lista */
+  padding: 0; /* Eliminar padding */
+  margin: 0; /* Eliminar márgenes */
+  display: flex; /* Usar flexbox para alinear las categorías */
+}
+
+nav ul li {
+  margin-left: 20px; /* Espaciado entre las categorías */
+  cursor: pointer; /* Cambiar el cursor al pasar por encima */
+}
+
+nav ul li:hover {
+  text-decoration: underline; /* Subrayar al pasar el mouse */
+}
+
+h2 {
+  text-align: center; /* Centrar el texto */
+  color: #333; /* Color del texto en ItemListContainer */
+  margin-top: 20px; /* Espaciado superior */
+}
+
+div {
+  padding: 20px; /* Espaciado interno en todos los divs */
+}
+
+/* Estilo para el icono del carrito */
+.fas.fa-shopping-cart {
+  font-size: 24px; /* Tamaño del icono */
+  color: white; /* Color del icono */
+}
+
+/* App.css - Añadir estos estilos al final del archivo */
+
+.product-list {
+  display: flex; /* Utilizar flexbox para organizar los productos */
+  flex-wrap: wrap; /* Permitir que los elementos se envuelvan */
+  justify-content: center; /* Centrar los productos */
+  margin-top: 20px; /* Espaciado superior */
+  color: #218838;
+}
+
+.product-card {
+  border: 1px solid #ccc; /* Borde alrededor de la tarjeta */
+  border-radius: 8px; /* Bordes redondeados */
+  padding: 15px; /* Espaciado interno */
+  margin: 10px; /* Espaciado entre tarjetas */
+  background-color: white; /* Fondo blanco para las tarjetas */
+  text-align: center; /* Centrar texto en las tarjetas */
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Sombra ligera para efecto de profundidad */
+}
+
+.product-card button {
+  background-color: #28a745; /* Color de fondo del botón */
+  color: white; /* Color del texto del botón */
+  border: none; /* Sin borde */
+  border-radius: 5px; /* Bordes redondeados para el botón */
+  padding: 10px 15px; /* Espaciado interno del botón */
+  cursor: pointer; /* Cambiar cursor al pasar el mouse */
+}
+
+.product-card button:hover {
+  background-color: #218838; /* Color de fondo al pasar el mouse */
+}
+
